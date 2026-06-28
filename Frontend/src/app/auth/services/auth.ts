@@ -1,4 +1,4 @@
-import { Injectable, Service } from '@angular/core';
+import { inject, Injectable, Service } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
@@ -7,8 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AuthService {
   url: string = 'http://localhost:3000/ecommerce';
-
-  constructor(private http: HttpClient) {}
+  private readonly http = inject(HttpClient);
 
   login(data: any): Observable<any> {
     return this.http.post(`${this.url}/login`, data);
