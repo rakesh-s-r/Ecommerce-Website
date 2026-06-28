@@ -1,7 +1,7 @@
-package com.example.ecommerce.controller;
+package com.example.shopnest.controller;
 
-import com.example.ecommerce.models.UserModel;
-import com.example.ecommerce.services.UserService;
+import com.example.shopnest.models.UserModel;
+import com.example.shopnest.services.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

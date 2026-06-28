@@ -1,7 +1,7 @@
-package com.example.ecommerce.controller;
+package com.example.shopnest.controller;
 
-import com.example.ecommerce.models.LoginReqBody;
-import com.example.ecommerce.services.UserService;
+import com.example.shopnest.models.LoginReqBody;
+import com.example.shopnest.services.UserService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

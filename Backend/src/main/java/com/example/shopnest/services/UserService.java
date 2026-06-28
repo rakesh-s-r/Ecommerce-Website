@@ -1,8 +1,8 @@
-package com.example.ecommerce.services;
+package com.example.shopnest.services;
 
-import com.example.ecommerce.models.LoginReqBody;
-import com.example.ecommerce.models.UserModel;
-import com.example.ecommerce.repository.UserRepository;
+import com.example.shopnest.models.LoginReqBody;
+import com.example.shopnest.models.UserModel;
+import com.example.shopnest.repository.UserRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

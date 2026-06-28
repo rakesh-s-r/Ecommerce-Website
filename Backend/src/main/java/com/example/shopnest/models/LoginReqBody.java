@@ -1,4 +1,4 @@
-package com.example.ecommerce.models;
+package com.example.shopnest.models;
 
 import lombok.Data;
 import lombok.NonNull;
